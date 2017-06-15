@@ -33,3 +33,64 @@ body {
   from { transform: rotate(90deg);}
   from { transform: rotate(360deg);}
 }
+
+.box-too {
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 110%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #83a4d4 0%, #b6fbff 100%);
+  overflow: hidden;
+}
+
+.ocean-too {
+  width: 1000px;
+  height: 1025px;
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -600px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, .75);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(90deg);}
+  from { transform: rotate(360deg);}
+}
+
+.box-three {
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 170%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #4AC29A 0%, #BDFFF3 100%);
+  overflow: hidden;
+}
+
+.ocean-three {
+  width: 1000px;
+  height: 1025px;
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -600px;
+  margin-bottom: 200px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, .75);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(90deg);}
+  from { transform: rotate(360deg);}
+}
