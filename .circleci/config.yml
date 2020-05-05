@@ -1,9 +1,13 @@
 version: 2.1
 
-orbs:
-  hello-world: rebekahwhittle/hello-world@0.0.1
+jobs:
+  hello: 
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - run: echo "Hello 👋🏼, $CIRCLE_USERNAME!"
 
 workflows:
-  hello:
+  welcome:
     jobs:
-      - hello-world
+      - hello
