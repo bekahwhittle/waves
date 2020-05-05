@@ -4,7 +4,6 @@ orbs:
   hello-world: rebekahwhittle/hello-world@0.0.1
 
 workflows:
-  version: 2.1
   hello:
     jobs:
       - hello-world
