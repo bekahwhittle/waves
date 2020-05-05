@@ -8,6 +8,7 @@ jobs:
       - run: echo "Hello 👋🏼, $CIRCLE_USERNAME!"
 
 workflows:
+  version: 2.1
   welcome:
     jobs:
       - hello
